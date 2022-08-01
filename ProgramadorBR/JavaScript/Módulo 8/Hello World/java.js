@@ -1,11 +1,8 @@
-// alert(
-//     "hello world"
-// )
+var a =96;
+a %= 30;
 
-var a;
 
-a = '2';
+var b = 96 % 30;
 
-b = '3'
 
-console.log(a / b);
+console.log(a);
