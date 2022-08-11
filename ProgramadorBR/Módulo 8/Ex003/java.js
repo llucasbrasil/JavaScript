@@ -14,7 +14,7 @@
 //     console.log("Sua média foi " + media + " ,inferior a '7'");
 // }
 
-var n1 = 5;
+var n1 = 2;
 var n2 = 8;
 var n3 = 7;
 var n4 = 9;
