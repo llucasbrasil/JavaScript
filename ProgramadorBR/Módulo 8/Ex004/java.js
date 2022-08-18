@@ -24,13 +24,19 @@
 
 // }
 
-for (var i =0;;i++){
-    console.log(i);
-    if (i>9)break;
+var n = 0;
+var x = 0;
+
+while (n<10){
+    n++;
+    n++;
+    
+    x+=n;
+    x++;
+    console.log("N "+ n + ",X "+ x);
+
 }
-
-
-
+console.log("Fim")
 
 
 
