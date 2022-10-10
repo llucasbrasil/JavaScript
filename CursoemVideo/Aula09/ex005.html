@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <h1>Iniciando estudos com DOM</h1>
+    <!-- <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usador o <strong>DOM</strong> em java script.</p>
     <p>Clique em mim</p>
@@ -25,6 +25,24 @@
         p1.style.color = '#00f'
         
     </script>
-    
+     -->
+
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usador o <strong>DOM</strong> em java script.</p>
+    <p id="msg">Clique em mim</p>
+
+    <script>
+
+        var corpo = window.document.body
+        var escrita = window.document.body
+        var newtext = window.document.getElementById('msg')
+        corpo.style.background = '#55f'
+        escrita.style.color = '#bbb'
+        newtext.innerText = 'Atualizado'
+        newtext.style.color = '#5f5'
+
+    </script>
+
 </body>
 </html>
